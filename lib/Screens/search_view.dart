@@ -134,20 +134,15 @@ class SearchScreen extends StatelessWidget {
                         RichText(
                           text: const TextSpan(
                             children: [
-                              TextSpan(
-                                  text: 'I',
-                                  style: TextStyle(fontSize: 38)
-                              ),
-                              TextSpan(
-                                  text: 'Love',
-                                  style: TextStyle(fontSize: 38)
-                              ),
-                              TextSpan(
-                                  text: 'U',
-                                  style: TextStyle(fontSize: 50)
+                              WidgetSpan(
+                                child: Icon(Icons.tag_faces_rounded, color: Colors.yellow, size: 40),
                               ),
                               WidgetSpan(
-                                child: Icon(Icons.tag_faces, color: Colors.yellow, size: 50), ),
+                                child: Icon(Icons.tag_faces_rounded, color: Colors.yellow, size: 40),
+                              ),
+                              WidgetSpan(
+                                child: Icon(Icons.tag_faces_rounded, color: Colors.yellow, size: 40),
+                              ),
                             ],
                           ),
                         ),
