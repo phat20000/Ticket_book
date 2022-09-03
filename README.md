@@ -1,4 +1,4 @@
-# study_app
+# ticket_app
 
 A new Flutter project.
 
